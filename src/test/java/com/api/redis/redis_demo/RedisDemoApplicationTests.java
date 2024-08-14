@@ -29,7 +29,7 @@ class RedisDemoApplicationTests {
 		RestAssured.baseURI = "http://localhost";
 		RestAssured.port = port;
 		userRepository.save(new User("101","John","London","England"));
-		userRepository.save(new User("102","Harry","Brrokyln","USA"));
+		userRepository.save(new User("102","Harry","Brooklyn","USA"));
 	}
 
 	@Test
