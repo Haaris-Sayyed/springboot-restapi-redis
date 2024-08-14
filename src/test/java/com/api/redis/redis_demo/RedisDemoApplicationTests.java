@@ -103,7 +103,7 @@ class RedisDemoApplicationTests {
                 .delete("/api/users/{id}", "101")
                 .then()
                 .statusCode(200)
-                .body(Matchers.equalTo("User deleted successfully"));;
+                .body(Matchers.equalTo("User deleted successfully"));
     }
 
 }
